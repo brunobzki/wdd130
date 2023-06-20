@@ -1,0 +1,230 @@
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px 35px;
+    border-radius: 5px;
+    font-family:"Bebas Neue";
+}
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-img{
+    width: 100%;
+}   
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+              
+#hero-msg h1{
+    text-align: center;
+    font-family:"Bebas Neue";
+    font-size:56px;
+    color: #0077c0;
+   
+    
+}
+
+           
+h2{
+    margin:0;
+
+}
+
+#hero-msg h4{
+    text-align: center;
+    font-family:"Bebas Neue";
+    font-size:26px;
+    color: #0077c0;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 428px ;
+    max-width: 1600px;
+}
+.salmon{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    margin: 20px;
+    width:500px ;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 5px;
+    z-index: 1;
+}
+.msg{
+    margin: 20px;
+    background-color:#ff9900;
+    color:#fcfbfb;
+    text-align: center;
+    font-size: 22px;
+    font-family:"Titillium web" ;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 90%;
+    border-radius: 5px;
+}
+
+
+.desolation{
+    margin: 20px;
+    width:500px ;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 5px;
+}
+.msg1{
+    margin: 20px;
+    background-color:#ff9900;
+    color:#fcfbfb;
+    text-align: center;
+    font-size: 22px;
+    font-family:"Titillium web" ;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 90%;
+    border-radius: 5px;
+}
+
+.canyon{
+    width: 80%;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 5px;
+    grid-row: 3/5;
+    grid-column: 1/3;
+    margin: 20px;
+}
+.msg2{
+    margin: 20px;
+    background-color:#ff9900;
+    color:#fcfbfb;
+    text-align: center;
+    font-size: 22px;
+    font-family:"Titillium web" ;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/6;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+    opacity: 90%;
+    border-radius: 5px;
+}
+
+
+main section,h2{
+    text-align: center;
+    font-family:"Bebas Neue";
+    color:#0077c0;
+    
+}
+main section img {
+    box-sizing: border-box;
+}
+.icon {
+    padding-top: 10px;
+}
+#background {
+    
+    background-color: #8ed2ff;
+    
+    grid-column: 1/6;
+    grid-row: 1/4;
+    
+
+}
+img.low{
+    grid-row: 4/5;
+    grid-column: 1/6;
+    width: 100%;
+
+}
+body {
+    background-color: #fcfbfb; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#ff9900;
+    text-decoration: none;
+    opacity: 90%;
+    
+    
+}
+nav a:hover {
+    background-color: #666666;
+    color: #8ed2ff;
+    text-decoration: none;
+    padding: 25px 35px;
+    border-radius: 5px;
+    
+}
+
+.msg p{
+    padding-bottom: 15px;
+    font-size: 0.8em;
+}
+footer{
+    background-color:#ff9900;
+   
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo.icon{
+    width: 80px;
+}
+footer p {
+    text-decoration: none;
+    font-size: 1.2em;
+    color:#0077c0 ;
+}    
+footer p a:hover {
+    text-decoration: none;
+    color:#8ed2ff;
+    background-color: #666666;
+    padding: 25px 35px;
+    border-radius: 5px;
+}    
+footer a {
+    text-decoration: none;
+    color:#0077c0;
+    padding: 25px 35px;
+    border-radius: 5px;
+    font-family:"Bebas Neue";
+  
+}
+footer .social img {
+    padding-top: 15px;
+    
+}
