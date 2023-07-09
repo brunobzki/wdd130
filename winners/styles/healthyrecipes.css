@@ -30,7 +30,7 @@ nav{
 }
 
 
-a{
+nav a{
     height:40px ;
     
     text-decoration: none;
@@ -56,14 +56,14 @@ nav a:hover{
     margin-top: -25px;
     z-index: 1;
 }
-.home-image{
-    
-   width: 1600px;
-    
+#home-image{    
+    width: 100%;
+   opacity: 70%; 
     
 }
 #home{
     display: grid;
+    
     margin-top: -40px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -84,6 +84,7 @@ nav a:hover{
 }
 #homeroom-image{
     width: 100%;
+    
 }
 
 footer .social img{
@@ -143,23 +144,17 @@ footer P{
    
     top: 40%;
     left: 71%;
-   
     text-align: center;
     z-index: 1;
     grid-row: 2/4;
-    grid-column: 1/3;
+    grid-column:2/3;
     
 }
 
 h1{
-
-    
     z-index: 1;
     margin:0;
-    font-size: 95px;
-    margin-right: 400px;
-    grid-row: 2/3;
-    grid-column: 1/2;
+    font-size: 100px;
     font-family: Italianno;
 }
 
@@ -179,3 +174,65 @@ h1{
 p a {
     padding: 0;
 }
+
+p{
+    font-family: var(--paragraph-font);
+    font-weight:700 ;
+    text-align: center;
+    color: #2196F3;
+    
+}
+
+  
+
+  
+div.gallery img {
+    width: 280px;
+    height: 320px;
+    
+    
+    
+
+}
+div.gallery{
+    width: 280px;
+    height: 320px;
+    
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.desc{
+    font-family: var(--paragraph-font);
+    font-weight:700 ;
+    background-color: #FFFAD2;
+    
+}
+* {
+    box-sizing:content-box ;
+    }
+  
+ .responsive {
+    
+    float:left ;
+    
+    margin: 55px
+
+ }
+  
+ div.gallery:hover {
+    
+    opacity: .6;
+    transform: scale(1.1);
+
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
