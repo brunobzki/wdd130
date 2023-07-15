@@ -56,11 +56,9 @@ nav a:hover{
     margin-top: -25px;
     z-index: 1;
 }
-#home-image{    
-    width: 100%;
-   opacity: 70%; 
+
     
-}
+
 #home{
     display: grid;
     
@@ -102,6 +100,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px ;
 }
 
 .button-box{
@@ -155,8 +154,8 @@ footer P{
     left: 71%;
     text-align: center;
     z-index: 1;
-    grid-row: 2/4;
-    grid-column:2/3;
+    grid-row: 1/4;
+    grid-column:1/4;
     
 }
 
@@ -165,6 +164,7 @@ h1{
     margin:0;
     font-size: 100px;
     font-family: Italianno;
+    color: #2196F3;
 }
 
 
@@ -189,29 +189,37 @@ p{
     font-weight:700 ;
     text-align: center;
     color: #2196F3;
-    font-size: 20px;
     
 }
 
-  
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}  
 
   
 div.gallery img {
-    width: 280px;
+    width: 320px;
     height: 320px;
+    border-radius: 8px;
+    z-index: 2;
+    
     
     
     
 
 }
 div.gallery{
-    width: 280px;
+    width: 320px;
     height: 320px;
+    
     
 }
 div.desc {
     padding: 10px;
     text-align: center;
+    border-radius: 8px;
+    z-index: 1;
     
 
 }
@@ -219,8 +227,36 @@ div.desc {
     font-family: var(--paragraph-font);
     font-weight:700 ;
     background-color: #FFFAD2;
+    margin-top: -58px;
+    opacity: 80%;
+    font-size: 22px;
     
 }
+    
+
+.desc1{
+    font-family: var(--paragraph-font);
+    font-weight:700 ;
+    background-color:#2196F3;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -58px;
+    opacity: 80%;
+    font-size: 22px;
+}
+.desc2{
+    font-family: var(--paragraph-font);
+    font-weight:700 ;
+    background-color:#4CAF50;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -58px;
+    opacity: 80%;
+    font-size: 22px;}
+
+
 * {
     box-sizing:content-box ;
     }
@@ -228,21 +264,22 @@ div.desc {
  .responsive {
     
     float:left ;
-    
-    margin: 55px
+    margin: 55px;
+   
 
  }
   
  div.gallery:hover {
     
     opacity: .6;
-    transform: scale(1.1);
+    transform: scale(1.2);
 
-  }
+ }
   
   .clearfix:after {
     content: "";
     display: table;
     clear: both;
+    align-items: center;
     
   }

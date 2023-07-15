@@ -38,7 +38,7 @@ a{
     font-weight: bold;
     padding: 30px;
     color:#4CAF50;
-    font-size: 26px;
+    font-size: 36px;
 
     
 
@@ -56,9 +56,10 @@ nav a:hover{
     margin-top: -25px;
     z-index: 1;
 }
-.home-image{
+#home-image{
     
-   width: 1600px;
+   width: 100%;
+   opacity: 80%;
     
     
 }
@@ -76,11 +77,15 @@ nav a:hover{
 }     
 #text p{
     font-family: var(--paragraph-font);
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     height: 300px;
     width: 500px;
     margin-left: 100px;
+    font-weight: 700;
+    
+    
+    
 }
 #homeroom-image{
     width: 100%;
@@ -97,18 +102,22 @@ footer{
     background-color:#B8DC97;
     color: #FFE4D1;
     padding: 25px 50px;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.button-box.hover{
+    transform: scale(1.1);
 
+}
 .button-box{
     background-color: #4CAF50;
     border-radius: 7px;
     height: 40px;
     width: 200px;
-    margin-left: 100px;
+    margin-left: 250px;
+    
     
     
 }
